@@ -11,7 +11,7 @@ pushd acornSmartWatchTuner || git commit . -m "$str" || popd || git stage acornS
 pushd battlesnake-2017 || git commit . -m "$str" || popd || git stage battlesnake-2017
 pushd cv_generator_2018 || git commit . -m "$str" || popd || git stage cv_generator_2018 || 
 pushd gamercorn || git commit . -m "$str" || popd || git stage gamercorn 
-pushd hemligt_project53 || git commit . -m "$str" || popd || git stage hemligt_project53
+pushd hemligt_projekt53 || git commit . -m "$str" || popd || git stage hemligt_projekt53
 pushd sellist || git commit . -m "$str" || popd || git stage sellist
 pushd snow || git commit . -m "$str" || popd || git stage snow
 
