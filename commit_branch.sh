@@ -5,15 +5,15 @@ if [ $# -eq 0 ]
 fi
 
 str="'$*'"
-echo "$str"
+#echo "$str"
 
-#pushd acornSmartWatchTuner && git commit . -m $1 && popd
-#pushd battlesnake-2017 && git commit . -m $1 && popd
-#pushd cv_generator_2018 && git commit . -m $1 && popd
-#pushd gamercorn && git commit . -m $1 && popd
-#pushd hemligt_project53 && git commit . -m $1 && popd
-#pushd sellist && git commit . -m $1 && popd
-#pushd snow && git commit . -m $1 && popd
+pushd acornSmartWatchTuner || git commit . -m "$str" || popd || git stage acornSmartWatchTuner
+pushd battlesnake-2017 || git commit . -m "$str" || popd || git stage battlesnake-2017
+pushd cv_generator_2018 || git commit . -m "$str" || popd || git stage cv_generator_2018 || 
+pushd gamercorn || git commit . -m "$str" || popd || git stage gamercorn 
+pushd hemligt_project53 || git commit . -m "$str" || popd || git stage hemligt_project53
+pushd sellist || git commit . -m "$str" || popd || git stage sellist
+pushd snow || git commit . -m "$str" || popd || git stage snow
 
 git commit . -m "$str"
 
