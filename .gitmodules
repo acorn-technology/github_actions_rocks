@@ -1,0 +1,21 @@
+[submodule "cv_generator_2018"]
+	path = cv_generator_2018
+	url = https://github.com/acorn-technology/cv_generator_2018
+[submodule "snow"]
+	path = snow
+	url = https://github.com/acorn-technology/snow
+[submodule "sellist"]
+	path = sellist
+	url = git@github.com:acorn-technology/sellist.git
+[submodule "hemligt_projekt53"]
+	path = hemligt_projekt53
+	url = https://github.com/acorn-technology/hemligt_projekt53
+[submodule "gamercorn"]
+	path = gamercorn
+	url = https://github.com/acorn-technology/gamercorn
+[submodule "acornSmartWatchTuner"]
+	path = acornSmartWatchTuner
+	url = https://github.com/acorn-technology/acornSmartWatchTuner
+[submodule "battlesnake-2017"]
+	path = battlesnake-2017
+	url = https://github.com/acorn-technology/battlesnake-2017
