@@ -1,9 +1,6 @@
 [submodule "cv_generator_2018"]
 	path = cv_generator_2018
 	url = https://github.com/acorn-technology/cv_generator_2018
-[submodule "snow"]
-	path = snow
-	url = https://github.com/acorn-technology/snow
 [submodule "sellist"]
 	path = sellist
 	url = git@github.com:acorn-technology/sellist.git
