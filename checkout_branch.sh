@@ -11,7 +11,7 @@ pushd cv_generator_2018 && git checkout -B $1 && popd
 pushd gamercorn && git checkout -B $1 && popd
 pushd hemligt_projekt53 && git checkout -B $1 && popd
 pushd sellist && git checkout -B $1 && popd
-pushd snow && git checkout -B $1 && popd
+pushd onboarding && git checkout -B $1 && popd
 
 
 

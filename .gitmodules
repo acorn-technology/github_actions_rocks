@@ -16,3 +16,6 @@
 [submodule "battlesnake-2017"]
 	path = battlesnake-2017
 	url = https://github.com/acorn-technology/battlesnake-2017
+[submodule "onboarding"]
+	path = onboarding
+	url = https://github.com/acorn-technology/onboarding

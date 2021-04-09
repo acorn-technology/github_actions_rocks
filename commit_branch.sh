@@ -13,7 +13,7 @@ pushd cv_generator_2018 || git commit . -m "$str" || popd || git stage cv_genera
 pushd gamercorn || git commit . -m "$str" || popd || git stage gamercorn 
 pushd hemligt_projekt53 || git commit . -m "$str" || popd || git stage hemligt_projekt53
 pushd sellist || git commit . -m "$str" || popd || git stage sellist
-pushd snow || git commit . -m "$str" || popd || git stage snow
+pushd onboarding || git commit . -m "$str" || popd || git stage onboarding
 
 git commit . -m "$str"
 
