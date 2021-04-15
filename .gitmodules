@@ -1,12 +1,6 @@
-[submodule "cv_generator_2018"]
-	path = cv_generator_2018
-	url = https://github.com/acorn-technology/cv_generator_2018
 [submodule "acornSmartWatchTuner"]
 	path = acornSmartWatchTuner
 	url = https://github.com/acorn-technology/acornSmartWatchTuner
-[submodule "battlesnake-2017"]
-	path = battlesnake-2017
-	url = https://github.com/acorn-technology/battlesnake-2017
-[submodule "onboarding"]
-	path = onboarding
-	url = https://github.com/acorn-technology/onboarding
+[submodule "hello-electron"]
+	path = hello-electron
+	url = git@github.com:cfogelklou/hello-electron.git
