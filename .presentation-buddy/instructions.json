@@ -6,6 +6,10 @@
   {
     "type": "openFile",
     "path": "hello-electron/.github/workflows/cd.yml"
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
   },  
   {
     "type": "typeTextFromFile",
@@ -17,6 +21,10 @@
     "save": true
   },
   {
+    "type": "command",
+    "command": "cursorBottom"
+  },
+  {
     "type": "typeTextFromFile",
     "path": "../hello-electron/.github/workflows/cd.yml.2.build"
   },
@@ -24,6 +32,10 @@
     "type": "wait",
     "delay": "manual",
     "save": true
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
   },
   {
     "type": "typeTextFromFile",
