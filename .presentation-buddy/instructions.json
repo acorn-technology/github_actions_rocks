@@ -1,11 +1,11 @@
 [
   {
     "type": "createFile",
-    "path": "hello-electron/.github/workflows/cd.yml"
+    "path": "hello-electron/.github/workflows/ci.yml"
   },
   {
     "type": "openFile",
-    "path": "hello-electron/.github/workflows/cd.yml"
+    "path": "hello-electron/.github/workflows/ci.yml"
   },
   {
     "type": "command",
@@ -13,7 +13,7 @@
   },  
   {
     "type": "typeTextFromFile",
-    "path": "../hello-electron/.github/workflows/cd.yml.1.unit-test"
+    "path": "../hello-electron/.github/workflows/ci.yml.1.unit-test"
   },
   {
     "type": "wait",
@@ -26,7 +26,7 @@
   },
   {
     "type": "typeTextFromFile",
-    "path": "../hello-electron/.github/workflows/cd.yml.2.build"
+    "path": "../hello-electron/.github/workflows/ci.yml.2.build"
   },
   {
     "type": "wait",
@@ -39,7 +39,7 @@
   },
   {
     "type": "typeTextFromFile",
-    "path": "../hello-electron/.github/workflows/cd.yml.3.artifacts"
+    "path": "../hello-electron/.github/workflows/ci.yml.3.artifacts"
   },
   {
     "type": "wait",
