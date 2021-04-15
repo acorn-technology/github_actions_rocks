@@ -90,11 +90,11 @@
   },
   {
     "type": "createFile",
-    "path": "roughtime_cpp_client.github/workflows/ci.yml"
+    "path": "roughtime_cpp_client/.github/workflows/ci.yml"
   },
   {
     "type": "openFile",
-    "path": "roughtime_cpp_client.github/workflows/ci.yml"
+    "path": "roughtime_cpp_client/.github/workflows/ci.yml"
   },
   {
     "type": "command",
@@ -102,6 +102,6 @@
   },  
   {
     "type": "typeTextFromFile",
-    "path": "../roughtime_cpp_client.github/workflows/ci.yml.bak"
+    "path": "../roughtime_cpp_client/.github/workflows/ci.yml.bak"
   }
 ]
