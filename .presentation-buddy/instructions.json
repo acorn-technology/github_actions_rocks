@@ -87,5 +87,21 @@
     "type": "wait",
     "delay": "manual",
     "save": true
-  }  
+  },
+  {
+    "type": "createFile",
+    "path": "roughtime_cpp_client.github/workflows/ci.yml"
+  },
+  {
+    "type": "openFile",
+    "path": "roughtime_cpp_client.github/workflows/ci.yml"
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../roughtime_cpp_client.github/workflows/ci.yml.bak"
+  }
 ]
