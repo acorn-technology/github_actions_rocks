@@ -66,5 +66,26 @@
     "type": "wait",
     "delay": "manual",
     "save": true
-  }
+  },
+  {
+    "type": "createFile",
+    "path": "BattleSnake-cpp-client/.github/workflows/cd.yml"
+  },
+  {
+    "type": "openFile",
+    "path": "BattleSnake-cpp-client/.github/workflows/cd.yml"
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../BattleSnake-cpp-client/.github/workflows/cd.yml.bak"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  }  
 ]
