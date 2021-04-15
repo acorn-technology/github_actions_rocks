@@ -47,6 +47,27 @@
     "save": true
   },
   {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+  {
+    "type": "createFile",
+    "path": "roughtime_cpp_client/.github/workflows/ci.yml"
+  },
+  {
+    "type": "openFile",
+    "path": "roughtime_cpp_client/.github/workflows/ci.yml"
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../roughtime_cpp_client/.github/workflows/ci.yml.bak"
+  },
+  {
     "type": "createFile",
     "path": "acornSmartWatchTuner/.github/workflows/cd.yml"
   },
@@ -82,26 +103,5 @@
   {
     "type": "typeTextFromFile",
     "path": "../BattleSnake-cpp-client/.github/workflows/cd.yml.bak"
-  },
-  {
-    "type": "wait",
-    "delay": "manual",
-    "save": true
-  },
-  {
-    "type": "createFile",
-    "path": "roughtime_cpp_client/.github/workflows/ci.yml"
-  },
-  {
-    "type": "openFile",
-    "path": "roughtime_cpp_client/.github/workflows/ci.yml"
-  },
-  {
-    "type": "command",
-    "command": "cursorBottom"
-  },  
-  {
-    "type": "typeTextFromFile",
-    "path": "../roughtime_cpp_client/.github/workflows/ci.yml.bak"
   }
 ]
