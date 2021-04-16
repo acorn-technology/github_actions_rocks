@@ -26,7 +26,6 @@ jobs:
           7z x secret.7z -p${{ secrets.SUPER_SECRET_7Z_PASSWORD }}
           mkdir artifacts
           cp this_file_is_secret.md artifacts/
-
       # Upload unzipped secret file
       - uses: actions/upload-artifact@master
         with:
@@ -66,7 +65,6 @@ jobs:
       - name: Print the super secret file
         run: |
           cat secrets/this_file_is_secret.md
-
   # Celebrate success on all platforms
   yay:
     name: Celebrate success
