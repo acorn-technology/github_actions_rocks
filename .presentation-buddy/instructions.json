@@ -103,5 +103,63 @@
   {
     "type": "typeTextFromFile",
     "path": "../BattleSnake-cpp-client/.github/workflows/ci.yml.bak"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+  {
+    "type": "createFile",
+    "path": ".github/workflows/ci.yml"
+  },
+  {
+    "type": "openFile",
+    "path": ".github/workflows/ci.yml"
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../.github/workflows/ci.yml.1"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+  {
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../.github/workflows/ci.yml.2"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },{
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../.github/workflows/ci.yml.3"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },{
+    "type": "command",
+    "command": "cursorBottom"
+  },  
+  {
+    "type": "typeTextFromFile",
+    "path": "../.github/workflows/ci.yml.4"
   }
 ]

@@ -1,0 +1,10 @@
+
+  # Celebrate success on all platforms
+  yay:
+    name: Celebrate success
+    needs: [print_windows, print_macos]
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Yay
+        run: echo Yay!!

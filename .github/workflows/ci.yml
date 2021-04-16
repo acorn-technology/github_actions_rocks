@@ -27,7 +27,7 @@ jobs:
           mkdir artifacts
           cp this_file_is_secret.md artifacts/
 
-      # Upload the secret file
+      # Upload unzipped secret file
       - uses: actions/upload-artifact@master
         with:
           name: artifacts-${{ github.workflow }}
@@ -67,19 +67,11 @@ jobs:
         run: |
           cat secrets/this_file_is_secret.md
 
-  yay_windows:
-    name: Celebrate success on Windows
-    needs: [print_windows]
-    runs-on: windows-latest
-    timeout-minutes: 2
-    steps:
-      - name: Yay
-        run: echo Yay!!
-
-  yay_macos:
-    name: Celebrate success on Windows
-    needs: [print_macos]
-    runs-on: macos-latest
+  # Celebrate success on all platforms
+  yay:
+    name: Celebrate success
+    needs: [print_windows, print_macos]
+    runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:
       - name: Yay
