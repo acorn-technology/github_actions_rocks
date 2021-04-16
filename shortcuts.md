@@ -8,3 +8,5 @@ Next slide: ⌘ alt =>
 
 Convert YAML-->JSON: Must be on .yml file, cmd+shift+p, type json
 Convert JSON-->YAML: Must be on json file, cmd+shift+p, type yaml
+
+Start screen recording: shift + cmd + 5
