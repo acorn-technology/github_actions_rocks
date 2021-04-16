@@ -23,21 +23,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-
       # Unzip the secret file
+      # 7z x secret.7z -p${{ secrets.SUPER_SECRET_7Z_PASSWORD }}
       - name: Extract the super secret file
         run: |
           echo What was Donald Trumps super secret twitter password?
-          7z x secret.7z -p${{ secrets.SUPER_SECRET_7Z_PASSWORD }}
+          # 7z x secret.7z -pmaga2020!
           mkdir artifacts
           cp this_file_is_secret.md artifacts/
 
