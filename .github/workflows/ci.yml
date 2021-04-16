@@ -3,7 +3,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [main, feat/chfo/210409_ga]
+    branches: [main]
   pull_request:
     branches: [main]
 
@@ -20,11 +20,10 @@ jobs:
       - uses: actions/checkout@v2
 
       # Unzip the secret file
-      #-p${{ secrets.SUPER_SECRET_7Z_PASSWORD }}
       - name: Extract the super secret file
         run: |
           echo What was Donald Trumps super secret twitter password?
-          7z x secret.7z -pmaga2020! 
+          7z x secret.7z -p${{ secrets.SUPER_SECRET_7Z_PASSWORD }}
           mkdir artifacts
           cp this_file_is_secret.md artifacts/
 
@@ -69,7 +68,7 @@ jobs:
           cat secrets/this_file_is_secret.md
 
   yay_windows:
-    name: Use artifact on Windows
+    name: Celebrate success on Windows
     needs: [print_windows]
     runs-on: windows-latest
     timeout-minutes: 2
@@ -78,7 +77,7 @@ jobs:
         run: echo Yay!!
 
   yay_macos:
-    name: Use artifact on Windows
+    name: Celebrate success on Windows
     needs: [print_macos]
     runs-on: macos-latest
     timeout-minutes: 2
