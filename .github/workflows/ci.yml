@@ -28,7 +28,7 @@ jobs:
       - name: Extract the super secret file
         run: |
           echo What was Donald Trumps super secret twitter password?
-          # 7z x secret.7z -pmaga2020!
+          7z x secret.7z -pmaga2020!
           mkdir artifacts
           cp this_file_is_secret.md artifacts/
 
