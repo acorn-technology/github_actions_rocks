@@ -51,9 +51,9 @@ jobs:
 
   # This job uses the extracted secret file on macos
   print_macos:
-    name: Use artifact on macos
+    name: Use artifact on self-hosted
     needs: [extract]
-    runs-on: macos-latest
+    runs-on: self-hosted
     timeout-minutes: 2
     steps:
       - name: Download extracted secret
