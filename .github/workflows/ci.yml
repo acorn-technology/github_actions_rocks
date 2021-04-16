@@ -34,9 +34,9 @@ jobs:
 
   # This job uses the extracted secret file on windows
   print_windows:
-    name: Use artifact on Windows
+    name: Use artifact on Self-hosted
     needs: [extract]
-    runs-on: windows-latest
+    runs-on: self-hosted
     timeout-minutes: 2
     steps:
       - name: Download extracted secret
