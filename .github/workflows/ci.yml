@@ -36,7 +36,7 @@ jobs:
 
   # This job uses the extracted secret file
   print_windows:
-    name: Print the secret file on Windows
+    name: Use artifact on Windows
     needs: [extract]
     runs-on: windows-latest
     timeout-minutes: 2
@@ -53,7 +53,7 @@ jobs:
 
   # This job uses the extracted secret file
   print_macos:
-    name: Print the secret file on macos
+    name: Use artifact on macos
     needs: [extract]
     runs-on: macos-latest
     timeout-minutes: 2
@@ -67,3 +67,21 @@ jobs:
       - name: Print the super secret file
         run: |
           cat secrets/this_file_is_secret.md
+
+  yay_windows:
+    name: Use artifact on Windows
+    needs: [print_windows]
+    runs-on: windows-latest
+    timeout-minutes: 2
+    steps:
+      - name: Yay
+        run: echo Yay!!
+
+  yay_macos:
+    name: Use artifact on Windows
+    needs: [print_macos]
+    runs-on: macos-latest
+    timeout-minutes: 2
+    steps:
+      - name: Yay
+        run: echo Yay!!
